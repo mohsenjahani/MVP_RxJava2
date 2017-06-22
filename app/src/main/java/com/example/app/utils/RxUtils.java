@@ -7,9 +7,8 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * Created by jose.cardoso on 06-06-2017.
+ * Class with some RxJava utilities that can be used a lot of times throughout the app
  */
-
 public class RxUtils {
 
     public static <T> ObservableTransformer<T, T> applySchedulers() {

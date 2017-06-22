@@ -6,11 +6,11 @@ import android.support.v4.app.Fragment;
 import android.view.View;
 
 /**
- * Created by jose.cardoso on 06-06-2017.
+ * Base Fragment that will link to a Presenter (extending the {@link BasePresenter})
  */
-
 public class BaseFragment<T extends BasePresenter> extends Fragment {
 
+    //Presenter linked to this Fragment
     protected T mPresenter;
 
     @Override
